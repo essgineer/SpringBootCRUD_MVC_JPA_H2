@@ -4,37 +4,48 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>HomePage</title>
 </head>
 <body>
-
-Welcome!
- <br />
- <br />
-Add a Customer. Enter id then name:
+<h1>Welcome!</h1>
+ 
+<b>Add a Customer.</b>
      <form action="addCustomer">
-    	 <input type="text" name="id"><br>
-   	 	 <input type="text" name="name"><br>
+    
+         <label for="id">Id&emsp;:</label>
+    	 <input type="text" name="id" placeholder="Enter id"><br>
+    	 <label for="name">Name: </label>
+    	 
+   	 	 <input type="text" name="name" placeholder="Enter name"><br>
     	 <input type="submit"><br>
+    	 
      </form>
  <br />    
- Get a customer. Enter id then name:
+ <b>Get a customer.</b>
        <form action="getCustomer">
-    	 <input type="text" name="id"><br>
+         <label for="id">Id&emsp;: </label>
+    	 <input type="text" name="id" placeholder="Enter id"><br>
     	 <input type="submit"><br>
        </form>
 <br />
-Update a Customer. Enter id:
-     <form action="updateCustomer">
-    	 <input type="text" name="id"><br>
-   	 	 <input type="text" name="name"><br>
+<b>Update a Customer</b>
+     <form action="updateCustomer"> 
+     <label for="id">Id&emsp;:</label>
+    	 <input type="text" name="id" placeholder="Enter id"><br>
+    	
+    	  <label for="name">Name: </label>
+   	 	 <input type="text" name="name" placeholder="Enter name"><br>
     	 <input type="submit"><br>
      </form>
  <br /> 
- Delete a Customer. Enter id:   
+ <b>Delete a Customer.</b>    
      <form action="deleteCustomer">
-    	 <input type="text" name="id"><br>
+     <label for="id">Id&emsp;:</label>
+    	 <input type="text" name="id" placeholder="Enter id"><br>
     	 <input type="submit"><br>
        </form>
+       
+       <br /> <br /> 
+
 </body>
 </html>
