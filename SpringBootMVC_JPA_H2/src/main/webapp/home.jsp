@@ -11,14 +11,11 @@
  
 <b>Add a Customer.</b>
      <form action="addCustomer">
-    
          <label for="id">Id&emsp;:</label>
     	 <input type="text" name="id" placeholder="Enter id"><br>
     	 <label for="name">Name: </label>
-    	 
    	 	 <input type="text" name="name" placeholder="Enter name"><br>
     	 <input type="submit"><br>
-    	 
      </form>
  <br />    
  <b>Get a customer.</b>
@@ -32,7 +29,6 @@
      <form action="updateCustomer"> 
      <label for="id">Id&emsp;:</label>
     	 <input type="text" name="id" placeholder="Enter id"><br>
-    	
     	  <label for="name">Name: </label>
    	 	 <input type="text" name="name" placeholder="Enter name"><br>
     	 <input type="submit"><br>
